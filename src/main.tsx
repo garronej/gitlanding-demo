@@ -1,10 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client"
+import { OnyxiaUi } from "./theme";
+import { MyComponent } from "./MyComponent";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <OnyxiaUi>
+      <MyComponent />
+    </OnyxiaUi>
+  </StrictMode>
+);

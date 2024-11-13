@@ -3,7 +3,6 @@ import "onyxia-ui/assets/fonts/WorkSans/font.css";
 import "onyxia-ui/assets/fonts/Marianne/font.css";
 
 const { OnyxiaUi, ofTypeTheme } = createOnyxiaUi({
-    BASE_URL: import.meta.env.BASE_URL,
     getTypographyDesc: params => {
         const typographyDesc = defaultGetTypographyDesc(params);
 
